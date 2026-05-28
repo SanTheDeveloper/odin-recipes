@@ -1,0 +1,58 @@
+/* UNIVERSAL RESET: 
+  This changes the box-sizing math so borders and padding don't break our layouts. 
+*/
+* {
+  box-sizing: border-box;
+}
+
+/* BODY STYLING: Applies to the whole page */
+body {
+  background-color: #f4f4f9; /* Light grayish-blue background */
+  color: #333; /* Dark text for readability */
+  font-family: Arial, Helvetica, sans-serif; /* Standard web-safe font */
+  padding: 20px; /* Gives the whole page some breathing room from the edges */
+}
+
+/* MAIN HEADING STYLING */
+h1 {
+  color: #2c3e50;
+  text-align: center; /* Centers the title */
+  border-bottom: 2px solid #2c3e50; /* Adds an underline under the main title */
+  padding-bottom: 10px;
+}
+
+/* SUBHEADING STYLING */
+h2 {
+  color: #d35400; /* A nice burnt orange color for the recipe sections */
+  margin-top: 30px; /* Pushes the headings away from the elements above them */
+}
+
+/* IMAGE STYLING */
+img {
+  display: block; /* Allows us to use margin auto */
+  margin: 0 auto; /* Centers the image perfectly */
+  border-radius: 10px; /* Rounds the corners of the images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle drop shadow */
+}
+
+/* LINK STYLING */
+a {
+  color: #2980b9; /* Nice blue color */
+  text-decoration: none; /* Removes the default underline */
+  font-weight: bold;
+}
+
+/* HOVER EFFECT: What happens when the mouse hovers over a link */
+a:hover {
+  color: #d35400; /* Changes to orange */
+  text-decoration: underline; /* Brings the underline back */
+}
+
+/* LIST STYLING: Applies to both ordered and unordered lists */
+ul,
+ol {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  line-height: 1.6; /* Adds space between lines of text making it easier to read */
+}
